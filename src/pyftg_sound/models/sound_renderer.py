@@ -126,4 +126,4 @@ class SoundRenderer:
             al.alSourceUnqueueBuffers(source_id, 1, buffer)
             al.alDeleteBuffers(1, buffer)
         self.stop(source_id)
-        self.al_source_i(source_id, al.AL_BUFFER, al.AL_NONE)
+        al.alSourcei(source_id, al.AL_BUFFER, al.AL_NONE)

@@ -1,6 +1,6 @@
 [project]
 name = "pyftg-sound"
-version = "0.2"
+version = "0.3b1"
 authors = [
   { name="TeamFightingICE" },
 ]
