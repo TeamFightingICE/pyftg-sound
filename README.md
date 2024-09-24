@@ -30,3 +30,7 @@ if the above command doesn't work due to ```no module named build``` error, inst
 ```sh
 pip install build
 ```
+3. Push project to pypi
+```sh
+twine upload dist/*
+```
